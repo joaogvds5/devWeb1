@@ -26,10 +26,10 @@ export default function Login() {
     };
 
     return (
-        <div>
+        <div className='telaLoginCompleto'>
             <div className='containerLogoTitutlo'>
                 <h1>UnigranStore</h1>
-                <img src="/images/logoUnigran.jpg" alt="logo da instituição Unigran" height={"200px"} />
+                <img src="/images/logo.png" alt="logo da instituição Unigran" height={"50px"} />
             </div>
 
             <div className='containerLogin'>

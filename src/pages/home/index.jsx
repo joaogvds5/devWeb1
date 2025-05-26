@@ -40,7 +40,7 @@ export default function index() {
                   className="btn btn-light mt-auto"
                   onClick={() => navigate("/listagemProdutos")}
                 >
-                  Ler
+                  Ver
                 </button>
               </div>
             </div>
