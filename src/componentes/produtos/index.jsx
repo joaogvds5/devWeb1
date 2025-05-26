@@ -1,8 +1,10 @@
-
+/* 
 import "./produtos.css";
 import { FaBeer, FaShoppingCart } from "react-icons/fa";
 import React from "react";
 import { produtos } from "./produtos";
+import MenuLateral from "../menuLateral/menuLateral";
+
 
 export default function Produtos() {
   const [cartItems, setCartItems] = React.useState([]);
@@ -14,7 +16,11 @@ export default function Produtos() {
   }
 
   return (
+    
     <div className="containerProdutos">
+      
+      <MenuLateral/>
+      <div className="conteudoProdutos">
       <div className="cartButton">
         <button onClick={() => setShowCart(true)}>
           <FaShoppingCart size={25} />
@@ -23,6 +29,7 @@ export default function Produtos() {
           {cartItems.length > 0 && cartItems.length}
         </span>
       </div>
+      
       {showCart && (
         <div className="carrinhoContainer show">
           <button
@@ -55,8 +62,10 @@ export default function Produtos() {
           );
         })}
       </div>
+      </div>
     </div>
   );
 }
 
 
+*/

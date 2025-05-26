@@ -52,7 +52,7 @@ export default function DashboardAdmin() {
         </div>
       </div>
 
-      {/* Botões inferiores */}
+
       <div className="d-flex justify-content-center gap-3 mt-5">
         <button className="btn btn-secondary" onClick={() => navigate('/products')}>
           Ir para Produtos

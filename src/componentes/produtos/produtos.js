@@ -1,4 +1,4 @@
-export const produtos = [
+/* export const produtos = [
   {
     nome: "Processador AMD Ryzen 5 5600G",
     valor: 899.9,
@@ -126,3 +126,5 @@ export const produtos = [
       "https://images1.kabum.com.br/produtos/fotos/114641/water-cooler-z-240-rise-mode-frost-240mm-rgb-rm-wcz-02-rgb_1663789230_g.jpg",
   },
 ];
+
+*/

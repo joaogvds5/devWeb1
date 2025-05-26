@@ -19,9 +19,9 @@ export default function Login() {
         e.preventDefault();
 
         if (user.email === "admin@unigran.com" && user.password === "123456") {
-             navigate("/dashboard");
+            navigate("/dashboard");
         } else {
-            navigate("/products");
+            navigate("/home");
         }
     };
 
