@@ -7,9 +7,8 @@ export default function CriarProd() {
 
   const [form, setForm] = useState({
     nome: '',
-    descricao: '',
+    url: '',
     preco: '',
-    id: ''
   });
 
   const userDados = (e) => {
@@ -30,24 +29,20 @@ export default function CriarProd() {
         
         <h1 className='tituloCadastro'>Cadastro de Produto</h1>
         <form onSubmit={realizaCadastro} className='formulario'>
-          <div className='formGroup'>
-            <label htmlFor="id">Código:</label>
-            <input type="number" name="id" value={form.id} onChange={userDados} required />
-          </div>
-
+          
           <div className='formGroup'>
             <label htmlFor="nome">Nome:</label>
             <input type="text" name="nome" value={form.nome} onChange={userDados} required />
           </div>
 
           <div className='formGroup'>
-            <label htmlFor="descricao">Descrição:</label>
-            <input type="text" name="descricao" value={form.descricao} onChange={userDados} required />
+            <label htmlFor="preco">Preço:</label>
+            <input type="number" name="preco" value={form.preco} onChange={userDados} required />
           </div>
 
           <div className='formGroup'>
-            <label htmlFor="preco">Preço:</label>
-            <input type="number" name="preco" value={form.preco} onChange={userDados} required />
+            <label htmlFor="url">Url:</label>
+            <input type="text" name="url" value={form.url} onChange={userDados} required />
           </div>
 
           <div className='botoesCadastro'>

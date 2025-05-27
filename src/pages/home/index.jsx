@@ -76,12 +76,6 @@ export default function index() {
             </div>
           </div>
         </div>
-
-        <div className="d-flex justify-content-center gap-3 mt-4">
-          <button className="btn btn-secondary" onClick={() => navigate("/produtos")}>
-            Ir para Produtos
-          </button>
-        </div>
       </div>
     </div>
   );
