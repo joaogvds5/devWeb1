@@ -38,7 +38,7 @@ export default function index() {
                 <p className="card-text small">Veja todos os produtos cadastrados.</p>
                 <button
                   className="btn btn-light mt-auto"
-                  onClick={() => navigate("/listagemProdutos")}
+                  onClick={() => navigate("/listaProdutos")}
                 >
                   Ver
                 </button>
