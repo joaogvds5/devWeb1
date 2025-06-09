@@ -12,7 +12,7 @@ import RemoveProduto from "../../pages/removeProdutos/removeProd";
 export default function Routers() {
   return (
     <Routes>
-      
+
       <Route path="/" element={<Login />} />  
       <Route path="/signUp" element={<SignUp />} />
       <Route path="/home" element={<Home />} />

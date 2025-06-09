@@ -1,3 +1,16 @@
 {
-  "produtos": []
+  "produtos": [
+    {
+      "id": "c6d7",
+      "nome": "eq",
+      "imagem": "https://images6.kabum.com.br/produtos/fotos/115216/placa-mae-asus-tuf-gaming-b550m-plus-amd-am4-matx-ddr4_1724074976_g.jpg",
+      "valor": 321
+    },
+    {
+      "id": "4bfc",
+      "nome": "eq",
+      "imagem": "https://images6.kabum.com.br/produtos/fotos/115216/placa-mae-asus-tuf-gaming-b550m-plus-amd-am4-matx-ddr4_1724074976_g.jpg",
+      "valor": 321
+    }
+  ]
 }
