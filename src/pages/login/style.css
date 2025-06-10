@@ -1,4 +1,4 @@
-/* Estilo geral do fundo */
+
 .telaLoginCompleto {
     height: 100vh;
     background: linear-gradient(to right, rgb(55, 88, 254) 43%, rgb(215, 206, 41));
@@ -8,13 +8,11 @@
     justify-content: center;
 }
 
-/* Container do logo e título */
 .containerLogoTitutlo {
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Container do formulário */
 .containerLogin {
     padding: 1rem;
     background-color: rgba(223, 218, 218, 0.8);
@@ -23,13 +21,11 @@
     text-align: center;
 }
 
-/* Estilização dos inputs */
 .containerLogin input {
     padding: 5px;
     margin: 5px;
 }
 
-/* Botão de login */
 .containerLogin #loginButton {
     margin: 10px;
     background-color: rgb(4, 216, 4);
@@ -45,7 +41,6 @@
     background-color: rgb(5, 172, 5);
 }
 
-/* Texto do título com gradiente */
 #tituloLogin {
     font-size: x-large;
     background: linear-gradient(to right, rgb(55, 88, 254) 43%, rgb(215, 206, 41));
@@ -54,7 +49,6 @@
     margin-bottom: 10px;
 }
 
-/* Estilo do cadastro */
 .cadastro p {
     display: inline;
     font-size: 13px;

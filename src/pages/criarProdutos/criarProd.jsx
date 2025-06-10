@@ -37,8 +37,8 @@ export default function CriarProd() {
         },
         body: JSON.stringify({
           nome: form.nome,
-          imagem: form.url,           // nome correto do campo esperado
-          valor: parseFloat(form.preco)  // nome correto do campo esperado
+          imagem: form.url,       
+          valor: parseFloat(form.preco)  
         }),
       });
 
